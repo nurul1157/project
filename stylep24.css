@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100px;
+    color: #fff;
+    height: 300px;
+}
+.text-center{
+    text-align: center;
+    
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+/* header*/
+.fixed-with{
+    width: 1000px;
+    height: auto;
+
+}
+.header{
+    background: #0287D0;
+   
+}
+
+.header-left{
+    float: left;
+    width: 30%;
+    
+}
+.header-left img{
+    max-width: 200px;
+    height: auto;
+   margin-left: 20px;
+   
+}
+ 
+.header-right{
+    float: right;
+    width: 70%;
+  
+}
+
+
+.header-right ul{
+    text-align: right;
+  
+}
+.header-right ul li{
+    display: inline-block;
+    margin-left: -5px;
+  
+    
+}
+.header-right ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding:0 20px;
+    line-height: 74px;
+    border-right: 1px solid #fff;
+   
+}
+ 
+
+.header-right ul li a:hover{
+    background-color: rgb(14, 12, 170);
+ 
+    
+}
+/* banner scetion */
+.banner{
+    background:url(./bg3.jpg) no-repeat center ;
+    background-size: cover;
+    padding:200px 0;
+    background-attachment: fixed;
+}
+.banner-caption{}
+.banner-caption h2{
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.banner-caption h2:hover{
+    background-color: rgba(147, 218, 247,.6);
+}
+.banner-caption h1{
+    background-color: rgba(147, 218, 247,.6);
+    color: #fff;
+   max-width: 400px;
+    margin: auto;
+    margin-top: auto;
+    padding: 10px 0;
+   margin-top: -30px;
+   margin-right: 100px;
+   border-radius: 5px;
+}
+.banner-caption h1:hover{
+    background-color: #BE8C6B;
+   
+}
+/* about section*/
+.about{
+   
+    background-color: #D0D0D0;
+  padding: 20px 0;
+}
+.about h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.about p{
+    max-width: 700px;
+    margin: auto;
+    font-size: 20px;
+}
+/* service serction*/
+.service{
+    background-color: #ECF0F1;
+    padding: 60px;
+}
+.service-item{
+    width: 31.3%;
+    float: left;
+    border: 1px solid#D0D0D0;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service-item span{
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: #0077C0;
+    color: #fff;
+    margin: auto;
+    font-size: 40px;
+    line-height: 60px;
+    border-radius: 20px 0 20px 0;
+   
+}
+.service-item h2{
+    margin: 20px 0;
+    font-size: 40px;
+}
+.service-item p{}
+
+/* blog section */
+.blog-conteanir{
+    padding-top:60px ;
+    padding-bottom: 40px;
+
+ 
+}
+.blog-left-content{
+    float: left;
+    width: 70%;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+   
+}
+.blog-left-notification{
+    float: right;
+    width: 25%;
+    margin-right: -100px;
+   
+}
+.blog-item{
+    padding-top: 40px;
+    font-size: 20px;
+    
+   
+  
+
+}
+.blog-item img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 40px;
+  
+}
+   
+/* blog section */
+
+.blog-left-notification h2{
+    background-color: #ECF0F1;
+    font-size: 40px;
+    border: 1px solid #ddd;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    line-height: 70px;
+}
+  
+.blog-left-notification ul{
+    list-style: none;
+    
+}
+.blog-left-notification ul li{
+    border: 1px solid #ddd;
+    background-color: rgb(207, 204, 204);
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+/* footer section */
+.footer{
+    background-color: #1C2A39;
+    color: #ddd;
+    padding: 15px 0}
+.footer-left{
+    float: left;
+     width: 40%;
+}
+p{
+    margin-left: 30px;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.social-menu{
+    text-align: center;
+}
+.social-menu li{
+   display: inline-block;
+}
+.social-menu li a{
+
+    color: #ddd;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.social-menu li a:hover{}
+   
